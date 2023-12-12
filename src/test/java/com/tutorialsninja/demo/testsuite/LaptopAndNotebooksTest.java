@@ -84,7 +84,7 @@ public class LaptopAndNotebooksTest extends BaseTest {
         checkoutPage.enterBillingDetailsPostcode("HA91Sf");
         checkoutPage.enterBillingDetailsCountry("United Kingdom");
         Thread.sleep(500);
-        checkoutPage.enterBillingDetailsRegionOrState("fffffff");
+        checkoutPage.enterBillingDetailsRegionOrState("Aberdeen");
         //2.21 Click on “Continue” Button
         checkoutPage.clickOnContinueBillingButton();
         //2.22 Add Comments About your order into text area

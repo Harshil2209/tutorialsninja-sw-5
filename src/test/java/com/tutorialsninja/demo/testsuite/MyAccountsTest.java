@@ -60,7 +60,7 @@ public class MyAccountsTest extends BaseTest {
         //3.4 Enter Last Name
         registerPage.sendLastName("Patel");
         //3.5 Enter Email
-        registerPage.sendEmail("patel");
+        registerPage.sendEmail("meet1@gmail.com");
         //3.6 Enter Telephone
         registerPage.sendTelephone("07654345678");
         //3.7 Enter Password
