@@ -74,14 +74,14 @@ public class LaptopAndNotebooksTest extends BaseTest {
         //2.19 Click on “Continue” tab
         checkoutPage.clickOnContinueButton();
         //2.20 Fill the mandatory fields
-        checkoutPage.enterBillingDetailsFirstName("Meet");
+        checkoutPage.enterBillingDetailsFirstName("Harry");
         checkoutPage.enterBillingDetailsLastName("patel");
         checkoutPage.enterBillingDetailsEmail("Patel" + getRandomAlphaNumericString(4) + "@gmail.com");
         Thread.sleep(500);
         checkoutPage.enterBillingDetailsTelephone("07654321234");
-        checkoutPage.enterBillingDetailsAddress("11 harrow Road");
-        checkoutPage.enterBillingDetailsCity("Harrow");
-        checkoutPage.enterBillingDetailsPostcode("HA91Sf");
+        checkoutPage.enterBillingDetailsAddress("10 London Road");
+        checkoutPage.enterBillingDetailsCity("Croydon");
+        checkoutPage.enterBillingDetailsPostcode("CR76JD");
         checkoutPage.enterBillingDetailsCountry("United Kingdom");
         Thread.sleep(500);
         checkoutPage.enterBillingDetailsRegionOrState("Aberdeen");
